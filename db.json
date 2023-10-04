@@ -23,6 +23,12 @@
       "price": "15000",
       "image": "https://avatars.mds.yandex.net/i?id=c33484cc6cc8d85e4cd8022d97d0f0f720e2c64f-7662303-images-thumbs&ref=rim&n=33&w=267&h=200",
       "id": 4
+    },
+    {
+      "title": "1",
+      "price": "1",
+      "image": "1",
+      "id": 5
     }
   ]
 }

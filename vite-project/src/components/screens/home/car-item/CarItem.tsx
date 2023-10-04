@@ -2,8 +2,9 @@
 import { Link } from "react-router-dom";
 import styles from "../Home.module.css";
 import CarPrice from "./CarPrice";
+import { ICar } from "@/vite-project/src/types/car.interface";
 
-const CarItem = ({ car }) => {
+function CarItem({ car }: { car: ICar }) {
   return (
     <div key={car.id} className={styles.item}>
       <img className={styles.image} src={`${car.image}`} alt="" />
@@ -16,6 +17,6 @@ const CarItem = ({ car }) => {
       </div>
     </div>
   );
-};
+}
 
 export default CarItem;

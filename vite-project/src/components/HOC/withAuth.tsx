@@ -1,8 +1,8 @@
 /* eslint-disable react/display-name */
-import { useContext } from "react";
+import { ComponentType, useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 
-export const withAuth = (Components) => (props) => {
+export const withAuth = (Components: ComponentType) => (props: any) => {
   const { user } = useContext(AuthContext);
 
   if (!user) {

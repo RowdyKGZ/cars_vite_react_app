@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import styles from "./createCarForm.module.css";
 import { ErrorMessage } from "./ErrorMessage";
 import { useCreateCart } from "./useCreateCart";
+import { ICarData } from "@/vite-project/src/types/car.interface";
 
 // const clearData = { price: "", name: "", image: "" };
 
@@ -17,7 +18,7 @@ const CreateCarForm = () => {
     reset,
     handleSubmit,
     formState: { errors },
-  } = useForm({
+  } = useForm<ICarData>({
     mode: "onChange",
   });
 
