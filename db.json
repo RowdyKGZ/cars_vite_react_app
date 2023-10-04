@@ -17,6 +17,12 @@
       "title": "Ferrari",
       "price": 50000,
       "image": "https://ae04.alicdn.com/kf/H3e78a0a7ef654d64a6232d82bda92374w.jpg"
+    },
+    {
+      "title": "Mustang",
+      "price": "15000",
+      "image": "https://avatars.mds.yandex.net/i?id=c33484cc6cc8d85e4cd8022d97d0f0f720e2c64f-7662303-images-thumbs&ref=rim&n=33&w=267&h=200",
+      "id": 4
     }
   ]
 }
